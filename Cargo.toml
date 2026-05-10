@@ -1,0 +1,8 @@
+[package]
+name = "agamotto"
+version = "0.1.0"
+edition = "2021"
+description = "🔮 Agamotto — A GPU-accelerated visual interface for coding agents"
+
+[dependencies]
+gpui = "0.2"
