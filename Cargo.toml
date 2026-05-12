@@ -2,7 +2,11 @@
 name = "agamotto"
 version = "0.1.0"
 edition = "2021"
-description = "🔮 Agamotto — A GPU-accelerated visual interface for coding agents"
+description = "🔮 Agamotto — A GPU-accelerated visual interface for pi coding agent"
 
 [dependencies]
-gpui = "0.2"
+gpui = { git = "https://github.com/zed-industries/zed" }
+gpui_platform = { git = "https://github.com/zed-industries/zed", features = ["font-kit"] }
+gpui-component = { git = "https://github.com/longbridge/gpui-component" }
+gpui-component-assets = { git = "https://github.com/longbridge/gpui-component" }
+smol = "2"
